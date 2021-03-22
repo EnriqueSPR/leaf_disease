@@ -1,4 +1,8 @@
-# mushroom_classifier_app
-This app was built to classify pictures of mushrooms.
+# Leaf_disease_estimator
 
-Click **[here](https://enriquespr.github.io/Enrique_portfolio_web/post/project_1/)** for more information about this project.
+
+## **An App to estimate leaf spot disease scores on cereals 🌾**
+
+**Description**: The goal of this project was to create a deep learning model, that can predict the disease rating, from an input image.
+
+
