@@ -56,7 +56,7 @@ expander_bar.markdown("""
 
 col1.markdown("""### Instructions:
 > 1. Choose one model
-> 2. Upload you plant picture""")
+> 2. Upload your plant picture""")
 
 models_list = ["Inception v3"]
 selected_model = col1.selectbox("Select the Model", models_list)
