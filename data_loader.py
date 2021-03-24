@@ -11,13 +11,7 @@ def create_df():
 
     # target variable
     y = np.array(df["Label"]).reshape(-1, 1)
-    # create scaler
-    scaler = MinMaxScaler()
-    # fit scaler on data
-    scaler.fit(y)
-    # apply transform
-    y_normalized = scaler.transform(y)
-    df["Normalized_Label"] = y_normalized
+
 
     def binning_target(i):
     
@@ -68,13 +62,11 @@ class DatasetLoader:
         data = []
         labels = []
         cat_labels=[]
-        normal_labels=[]
         file_names = []
 
         for path in imagePaths:
             image = cv2.imread(path)
             label = df.loc[path.split(os.path.sep)[-1]==df["File"]]["Label"] # get the label for each picture
-            norm_label = df.loc[path.split(os.path.sep)[-1]==df["File"]]["Normalized_Label"] # get the normalized label for each picture
             cat_label = df.loc[path.split(os.path.sep)[-1]==df["File"]]["Categorical_Label"].item() # I will use it to perform an stratified split
             file_name = df.loc[path.split(os.path.sep)[-1]==df["File"]]["File"].item() # I will use it to track the files
 
@@ -88,15 +80,12 @@ class DatasetLoader:
             # by updating the data list followed by the labels
             data.append(image)
             labels.append(label)
-            normal_labels.append(norm_label)
             cat_labels.append(cat_label)
             file_names.append(file_name)
     
         X = np.array(data)
         y = np.array(labels)
-        y_normal = np.array(normal_labels)
         y_cat = np.array(cat_labels)
-        y_normal = y_normal.astype("float32")
 
-        return X, y, y_normal, y_cat
+        return X, y, y_cat
 

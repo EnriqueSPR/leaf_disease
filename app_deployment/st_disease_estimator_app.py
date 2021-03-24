@@ -98,7 +98,7 @@ if uploaded_file:
         resized = ima.resize(newsize) 
         shown_pic = st.image(resized, caption='Your Plant Picture')
         st.write("")
-        st.info("Classifying...")
+        st.info("Estimating...")
 
         path = "inception_v3_approach_raw.h5"
         Inception_Resnet = model_load(path)
