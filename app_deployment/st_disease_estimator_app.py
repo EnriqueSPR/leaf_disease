@@ -72,7 +72,7 @@ st.write("See below an example of a picture for disease score prediction:")
 example_img = Image.open('Picture1.png')
 st.image(example_img, width = 400)
 st.write("""---""")
-st.success("See below the probability score")
+st.success("See below the disease score")
 
 def prepare_image_inception(im):
     size = (299, 299)
@@ -96,7 +96,8 @@ if uploaded_file:
     if selected_model == "Inception v3":
         newsize = (250, 250) 
         resized = ima.resize(newsize) 
-        shown_pic = st.image(resized, caption='Your Plant Picture')
+        shown = ima.resize((350, 250))
+        shown_pic = st.image(shown, caption='Your Plant Picture')
         st.write("")
         st.info("Estimating...")
 
