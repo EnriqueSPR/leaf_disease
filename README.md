@@ -143,7 +143,7 @@ Hence, a transfer learning approach could be also used taking advantage of one o
 
 * **Tranfer learning**: We will exclude the last two layers of the inception_v3 model and include our ``GlobalAveragePooling2D``, ``Dense``, ``BatchNormalization``, ``Dropout`` and most importantly a last dense layer with a ``linear`` activation fuction to perform the regression.
 
-<img src="figures/Inception_V3.png" width="600"/>
+<img src="figures/Inception_v3.png" width="600"/>
 
   * 1. Train the network with a learning rate of 0.001 with all inception_v3 layers trained in the imagenet dataset frozen.
   * 2. Unfreeze all layers and fine tune the model with a learning rate = 0.00001.
