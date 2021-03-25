@@ -31,7 +31,7 @@ image = Image.open('logo.png')
 st.image(image, width = 700)
 
 # Title
-st.markdown("""## **An App to estimate leaf spot disease scores on cereals 🌾**""")
+st.markdown("""## **An App to estimate leaf spot disease levels on cereals 🌾**""")
 
 # Description
 st.markdown("""
@@ -63,7 +63,7 @@ selected_model = col1.selectbox("Select the Model", models_list)
 
 # component to upload images
 uploaded_file = col1.file_uploader(
-    "Upload a mushroom image to classify", type=["jpg", "jpeg", "png"])
+    "Upload a plant image for disease estimation", type=["jpg", "jpeg", "png"])
 
 
 
