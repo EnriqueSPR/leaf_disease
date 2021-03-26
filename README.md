@@ -12,7 +12,7 @@
 
 **Python Version**: 3.7
 
-**Packages**: pandas, numpy, sklearn, os, glob, scipy, matplotlib, plotly, streamlit, PIL, cv2, pickle, keras (2.4.0).
+**Packages**: pandas (1.1.3), numpy (1.19.5), sklearn (0.24.1), os, glob, scipy (1.6.0), matplotlib (3.3.4), plotly (4.14.3), streamlit (0.79.0), PIL, cv2 (4.4.0), pickle, keras (2.4.0).
 
 
 
@@ -219,3 +219,17 @@ See below an example of segmented images:
 When we compare the training using segmented and the original rgb pictures we see a quicker drop on the ``val_loss`` (mse), which may be the result of a more focused training on the leaf-related features, which we expect to be associated to disease severity.
 
 <img src="figures/rgb_vs_segmented.png" width="400"/>
+
+---
+
+## 8. Model Deployment
+
+An app was built locally with the [Streamlit](https://streamlit.io/) package and deployed it using the [Heroku](https://dashboard.heroku.com/apps) framework.
+
+See below couple of screenshots of the app:
+
+<img src="figures/Screenshot_1.png" width="600"/>
+
+<img src="figures/Screenshot_2.png" width="600"/>
+
+---
