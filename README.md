@@ -4,20 +4,12 @@
 
 ## **An App to estimate leaf spot disease scores on cereals 🌾**
 
-**Description**: The goal of this project was to use CNNs to predict the disease rating, from an input image. 
+* **Description**: The goal of this project was to use CNNs to predict the disease rating, from an input image. 
 
-**Introduction**: Plant diseases have long been one of the major threats to food security because they dramatically reduce the crop yield and compromises its quality. Accurate and precise estimation of the disease level has been a difficult challenge. Nonetheless, over the last years, the depelopment of deep learning approaches and in particular of CNNs, has brought significant progress to the automatic estimation of crop disease levels. These advances in image processing will definetely benefit the **decission making** process for farmers and they will pave the way towards more sustainable agro-systems 🔄. Furthermore, such automatized phenotypic tools will play an important role in the **crop improvement programs** where phenotyping plants has largely been the most labour-intensive part of the process.
-
-
-### Code and Resources Used
-
-**Python Version**: 3.7
-
-**Packages**: pandas (1.1.3), numpy (1.19.5), sklearn (0.24.1), os, glob, scipy (1.6.0), matplotlib (3.3.4), plotly (4.14.3), streamlit (0.79.0), PIL, cv2 (4.4.0), pickle, keras (2.4.0).
+* **Introduction**: Plant diseases have long been one of the major threats to food security because they dramatically reduce the crop yield and compromises its quality. Accurate and precise estimation of the disease level has been a difficult challenge. Nonetheless, over the last years, the depelopment of deep learning approaches and in particular of CNNs, has brought significant progress to the automatic estimation of crop disease levels. These advances in image processing will definetely benefit the **decission making** process for farmers and they will pave the way towards more sustainable agro-systems 🔄. Furthermore, such automatized phenotypic tools will play an important role in the **crop improvement programs** where phenotyping plants has largely been the most labour-intensive part of the process.
 
 
-
-**Challenges**. There are two **main issues** that remain with the use of CNNs:
+* **Challenges**. There are two **main issues** that remain with the use of CNNs:
 
   * Require **large datasets**. 
   * Database construction can be **labour intensive** (all pictures need to be properly labeled with the correct disease).
@@ -25,6 +17,15 @@
     > Hence, there is an increasing interest in developing well-performing models by using **small picture datasets**.
 
     > In this project I will use a very small picture dataset (144 pictures total) and try to overcome the issues associated.
+
+### Code and Resources Used
+
+* **Python Version**: 3.7
+
+* **Packages**: pandas (1.1.3), numpy (1.19.5), sklearn (0.24.1), os, glob, scipy (1.6.0), matplotlib (3.3.4), plotly (4.14.3), streamlit (0.79.0), PIL, cv2 (4.4.0), pickle, keras (2.4.0).
+
+
+
 
 
 
