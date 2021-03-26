@@ -155,6 +155,8 @@ Hence, a transfer learning approach could be also used taking advantage of one o
 Mean absolute error(mae) and mean squared error(mse) were used as evaluation metrics. As loss function mse was used to penalize more the large errors.
 
       Final model -> mae:  0.06, mse:  0.22, loss:  0.06
+      
+In the plot below the predicted values for the test set are ploted against the truth values. The red line represents the perfect prediction, whereas the purple line is the trend line (r<sup>2</sup>=0.58) 
 
 <img src="figures/pred_vs_truth.png" width="400"/>
 
