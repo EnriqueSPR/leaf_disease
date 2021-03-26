@@ -206,5 +206,12 @@ In the plot below the predicted values for the test set are ploted against the t
     * **Transformers**: They represent a breakthrough in deep neural network architectures that has recently unlocked dramatic advances across many areas of AI, including [computer vision](https://arxiv.org/abs/2010.11929).
 ---
 
+## 7. Leaf segmentation
 
+In an attempt to improve the model performance I segmented the pictures using this [repository on github](https://github.com/YaredTaddese/leaf-image-segmentation).
 
+*Note: In this case the pictures have a white background (only some debry is present in the background), so the effects of the segmentation may not have a large effect on the model performance*
+
+See below an example of segmented images:
+
+<img src="figures/inspecting_segmented.png" width="800"/>
