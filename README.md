@@ -147,8 +147,8 @@ Hence, a transfer learning approach could be also used taking advantage of one o
 
 <img src="figures/Inception_v3.png" width="600"/>
 
-  * 1. Train the network with a learning rate of 0.001 with all inception_v3 layers trained in the imagenet dataset frozen.
-  * 2. Unfreeze all layers and fine tune the model with a learning rate = 0.00001.
+   > 1. Train the network with a learning rate of 0.001 with all inception_v3 layers trained in the imagenet dataset frozen.
+   > 2. Unfreeze all layers and fine tune the model with a learning rate = 0.00001.
 
 <img src="figures/Training_raw_scaler.png" width="400"/>
 
