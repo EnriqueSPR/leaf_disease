@@ -215,3 +215,7 @@ In an attempt to improve the model performance I segmented the pictures using th
 See below an example of segmented images:
 
 <img src="figures/inspecting_segmented.png" width="800"/>
+
+When we compare the training using segmented and the original rgb pictures we see a quicker drop on the ``val_loss`` (mse), which may be the result of a more focused training on the leaf-related features, which we expect to be associated to disease severity.
+
+<img src="figures/rgb_vs_segmented.png" width="400"/>
