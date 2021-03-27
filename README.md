@@ -131,7 +131,7 @@ Hence, a transfer learning approach could be also used taking advantage of one o
 ## 4. Resize pictures and use data augmentation.
 
 * Data Split: Stratified data split was performed to preserve equal distribution of disease severity accross sets.
-*Note: ``MinMaxScaler`` was used after splitting to scale the target variable between 0 and 1.
+*Note: ``MinMaxScaler`` was used after splitting to scale the target variable between 0 and 1*.
 
 <img src="figures/stratified_split.png" width="600"/> 
 
