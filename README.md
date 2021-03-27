@@ -137,7 +137,7 @@ Hence, a transfer learning approach could be also used taking advantage of one o
 
 * Data Augmentation: Rotation, vertical and horizontal flippling were used in this case to enhance the train set.
 
-<img src="figures/data_augmentation.png" width="600"/> 
+<img src="figures/data_augmentation.png" width="400"/> 
 
 ---
 
