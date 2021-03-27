@@ -50,11 +50,7 @@ It is a good idea to start from a simple approach and improve it from there.
 
 **7. Leaf segmentation**:
 
-**8. Cross-validation technique**.
-
-**9. Testing data_loader, training and predict scripts**.
-
-**10. Model Deployment**
+**8. Model Deployment**
    
 ---
 
