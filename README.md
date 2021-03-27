@@ -125,7 +125,7 @@ The third approach could be detrimental because there may be a direct associatio
 
 
 * Finally, is also worth noticing that our dataset is somewhat similar to a famous benchmark dataset extensively used in a **Leaf Segmentation Challenge (LSC)** from the Computer Vision Problems in Plant Phenotyping platform (**[CVPPP](https://www.plant-phenotyping.org/CVPPP2020)**). Similarly, all images are taken from the top and have uniform backgrounds.
-Hence, a transfer learning approach could be also used taking advantage of one of the state of the art models trained on the CVPPP dataset (i.e. **[Mask R-CNN](https://github.com/csiro-robotics/UPGen)**). For this, we should have segmented versions of our pictures. A possibility that I mentioned in the last section (possible improvements).
+Hence, a transfer learning approach could be also used taking advantage of one of the state of the art models trained on the CVPPP dataset (i.e. **[Mask R-CNN](https://github.com/csiro-robotics/UPGen)**). For this, we should have segmented versions of our pictures. A possibility that I mention in the last section (possible improvements).
 ---
 
 ## 4. Resize pictures and use data augmentation.
