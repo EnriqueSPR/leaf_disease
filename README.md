@@ -50,7 +50,7 @@ It is a good idea to start from a simple approach and improve it from there.
 
 **7. Leaf segmentation**:
 
-**8. Model Deployment**
+**8. Model Deployment**:
    
 ---
 
