@@ -220,7 +220,36 @@ When we compare the training using segmented and the original rgb pictures we se
 
 ---
 
-## 8. Model Deployment
+## 8. Oversampling of the minority classes with data augmentation
+
+In this section I will use data augmentation to oversample the minority classes. For this I will create a train, val and test folders, and apply data augmentation on the train and val sets.
+
+* Label target variable distribution before data augmentation (train + val + test sets):
+
+<img src="figures/count_plot_before.png" width="400"/>
+
+* Label target variable distribution after data augmentation (train + val sets):
+
+<img src="figures/count_plot_after.png" width="400"/>
+
+* Model training:
+
+<img src="figures/Training_marked_seg_aug.png" width="400"/>
+
+* Model evaluation:
+* 
+Mean absolute error(mae) and mean squared error(mse) were used as evaluation metrics. As loss function mse was used to penalize more the large errors.
+
+      Final model -> mae:  0.06, mse:  0.22, loss:  0.06
+      
+In the plot below the predicted values for the test set are ploted against the truth values. The red line represents the perfect prediction, whereas the purple line is the trend line (r<sup>2</sup>=0.58) 
+
+<img src="figures/pred_vs_truth_aug.png" width="400"/>
+
+---
+
+
+## 9. Model Deployment
 
 An app was built locally with the [Streamlit](https://streamlit.io/) package and deployed it using the [Heroku](https://dashboard.heroku.com/apps) framework.
 
