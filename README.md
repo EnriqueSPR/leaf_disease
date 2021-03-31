@@ -248,7 +248,7 @@ Mean absolute error(mae) and mean squared error(mse) were used as evaluation met
 
       Final model -> mae:  0.14, mse:  0.33, loss:  0.14
       
-In the plot below the predicted values for the test set are ploted against the truth values. The red line represents the perfect prediction, whereas the purple line is the trend line (r<sup>2</sup>=0.58) 
+In the plot below the predicted values for the test set are ploted against the truth values. The red line represents the perfect prediction, whereas the purple line is the trend line (r<sup>2</sup>=0.08) 
 
 <img src="figures/pred_vs_truth_aug.png" width="400"/>
 
