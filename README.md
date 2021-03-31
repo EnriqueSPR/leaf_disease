@@ -224,6 +224,8 @@ When we compare the training using segmented and the original rgb pictures we se
 
 In this section I will use data augmentation to oversample the minority classes. For this I will create a train, val and test folders, and apply data augmentation on the train and val sets.
 
+
+
 * Label target variable distribution before data augmentation (train + val + test sets):
 
 <img src="figures/count_plot_before.png" width="400"/>
@@ -231,6 +233,10 @@ In this section I will use data augmentation to oversample the minority classes.
 * Label target variable distribution after data augmentation (train + val sets):
 
 <img src="figures/count_plot_after.png" width="400"/>
+
+* Target distribution on the three sets before training
+
+<img src="figures/stratified_split_aug.png" width="600"/> 
 
 * Model training:
 
