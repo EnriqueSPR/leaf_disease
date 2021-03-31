@@ -234,7 +234,7 @@ In this section I will use data augmentation to oversample the minority classes.
 
 <img src="figures/count_plot_after.png" width="400"/>
 
-* Target distribution on the three sets before training
+* Target distribution on the three sets:
 
 <img src="figures/stratified_split_aug.png" width="600"/> 
 
