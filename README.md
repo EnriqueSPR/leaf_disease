@@ -1,6 +1,6 @@
 # Leaf_disease_estimator
 
-**[See full code here](https://nbviewer.jupyter.org/github/EnriqueSPR/leaf_disease/blob/master/leaf_disease_regression.ipynb)**.
+**[See full code here](https://nbviewer.jupyter.org/github/EnriqueSPR/leaf_disease/blob/master/leaf_disease_estimator.ipynb)**.
 
 ## **An App to estimate leaf spot disease scores on cereals 🌾**
 
