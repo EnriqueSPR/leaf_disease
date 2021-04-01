@@ -252,6 +252,9 @@ In the plot below the predicted values for the test set are ploted against the t
 
 <img src="figures/pred_vs_truth_aug.png" width="400"/>
 
+We can see that we did not improve model's performance on the test set by oversampling the train and val sets using data augmentation on the minority classes.
+Indeed, we can expect the model to generalize better accross disease levels, but since the test set is unevenly distributed, performance is hurt.
+
 ---
 
 
