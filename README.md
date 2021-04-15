@@ -37,7 +37,7 @@
     
 **3. Choose an approach for our given problem 🎯**:
 
-It is a good idea to start from a simple approach and improve it from there.
+*It is a good idea to start from a simple approach and improve it from there.*
 
 
 **4. Resize pictures, split the dataset and use data augmentation**:
