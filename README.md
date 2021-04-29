@@ -242,6 +242,8 @@ In this section I will use data augmentation to oversample the minority classes.
 
 <img src="figures/Training_marked_seg_aug.png" width="400"/>
 
+We can see how by performing data augmentation the loss decreased faster
+
 * Model evaluation:
 
 Mean absolute error(mae) and mean squared error(mse) were used as evaluation metrics. As loss function mse was used to penalize more the large errors.
